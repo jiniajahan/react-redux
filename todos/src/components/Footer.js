@@ -13,8 +13,8 @@ const Footer = () => (
       Active
     </FilterLink>
     {", "}
-    <FilterLink filter="SHOW_COMPLETED">
-      Completed
+    <FilterLink filter="SHOW_DELETED">
+      Deleted
     </FilterLink>
   </p>
 )
